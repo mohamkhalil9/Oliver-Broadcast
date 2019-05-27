@@ -78,12 +78,13 @@ m.sendMessage(args)
          .setThumbnail(message.author.avatarURL)
          .setDescription(`**Help|هيلب
   
-       $obc | لأرسال برود كاست للكل  // Alpha Codes Ghost
+       $obc | لأرسال برود كاست للكل  
 
        $bc  |  لأرسال برود كاست للأونلاين
 
        $adminbc | برودكاست عادي
-
+       
+       Made By : !                    x'1Кemuda .#٦٣٣٤
        ** `)
    message.author.sendEmbed(embed)
    
