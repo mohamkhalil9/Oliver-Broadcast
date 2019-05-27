@@ -90,7 +90,7 @@ m.sendMessage(args)
    }
    });
 
-const developers = ["415142691282616330","268986012309520386",id"]
+const developers = ["415142691282616330","268986012309520386","id"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');  // Alpha Codes Ghost
       if (!developers.includes(message.author.id)) return;
