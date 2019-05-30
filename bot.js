@@ -91,6 +91,17 @@ m.sendMessage(args)
    }
    });
 
+client.on('ready', () => {
+   console.log(`----------------`);
+      console.log(`Desert Bot- Script By : EX Clan`);
+        console.log(`----------------`);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
+    console.log(`----------------`);
+  console.log(`Logged in as ${client.user.tag}!`);
+client.user.setGame(`OliverSky Broadcast`,"http://twitch.tv/Death Shop")
+client.user.setStatus("online")
+});
+
 const developers = ["415142691282616330","268986012309520386","id"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');  // Alpha Codes Ghost
