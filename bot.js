@@ -84,7 +84,7 @@ m.sendMessage(args)
 
        $adminbc | برودكاست عادي
        
-       Made By : !                    x'1Кemuda .#٦٣٣٤
+       Made By : !                        Lewis .#6334 
        ** `)
    message.author.sendEmbed(embed)
    
